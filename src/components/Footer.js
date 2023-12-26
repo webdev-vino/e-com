@@ -8,7 +8,7 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://shop-vn9m.onrender.com/email', {email})
+    axios.post('https://e-shop-xp7d.onrender.com/email', {email})
     .then(result =>{ console.log(result)
       setEmail('');
     })
